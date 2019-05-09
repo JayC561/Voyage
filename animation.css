@@ -1,0 +1,28 @@
+@keyframes fade{
+  0%{
+    opacity:0;
+    fill:none;
+    stroke-dashoffset:2500;
+  }
+  30%{
+    opacity:10;
+    fill:none;
+  }
+  90%{
+    fill:rgba(255,255,255,0);
+  }
+  100%{
+    opacity:10;
+    stroke-dashoffset:0;
+    fill:rgba(255,255,255,1);
+  }
+}
+
+@keyframes fade_images{
+  0%{
+    opacity:1;
+  }
+  100%{
+    opacity:0;
+  }
+}

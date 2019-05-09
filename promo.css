@@ -1,0 +1,17 @@
+.promo{display: grid;
+grid-template-rows: repeat(1,1fr);
+grid-template-columns: repeat(3,1fr);
+grid-gap:2% 2%;}
+
+.promo div{background-color: #CF4532;}
+
+.promo-text,.promo-description{color:#F6F4F2;
+font-family: "Poppins";
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;}
+
+.promo-text{font-size: calc(20px + (60 - 20)*(100vw - 300px) / (800 - 300));}
+
+.promo-description{font-size: calc(20px + (35 - 20)*(100vw - 300px) / (800 - 300));}

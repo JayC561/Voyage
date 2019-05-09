@@ -1,0 +1,18 @@
+svg{height:35%;
+width:35%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+transition: 1s ease-in;
+will-change: display;
+}
+
+path{stroke:#FFF;
+stroke-dasharray: 2500;
+opacity:10;
+fill:#FFF;
+animation: fade 3s cubic-bezier(0,0.23,1,.1);
+}
+
+.effect{animation:fade_image 1s cubic-bezier(0,0.23,1,.1);}

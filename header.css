@@ -1,0 +1,64 @@
+header{height:10%;
+width:100%;
+position: fixed;
+top:0;
+left:50%;
+transform: translateX(-50%);
+z-index: 999;
+display: flex;
+flex-direction: row;
+background-color: #F6F4F2;
+color: #212529;}
+
+.company-name{height:80%;
+font-size:calc(12px + (35 - 12)*(100vmin - 300px) / (800 - 300));
+font-family: "Pacifico";
+position: relative;
+top:50%;
+transform: translateY(-50%);
+color:#CF4532;
+margin-left:2.5%;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.nav-icon{height:70%;
+width:20%;
+position: relative;
+top:50%;
+left:90%;
+transform: translate(-90%,-50%);}
+
+header ul{height:100%;
+width:100%;
+list-style: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding:0;
+margin:0 2.5% 0 20%;
+position: relative;
+top:50%;
+transform: translateY(-50%);
+font-size:calc(7px + (12 - 7)*(100vw - 300px) / (800 - 300));
+}
+
+header ul li{height: 100%;
+padding-right:5%;
+font-family: "GT-Walsheim-Light";
+display: flex;
+justify-content: center;
+align-items: center;}
+
+header ul li:hover{color:#CF4532;}
+
+.log-in{width:20%;
+background-color:#CF4532;
+color:#FFF;
+display: flex;
+justify-content: center;
+align-items: center;
+padding:0;}
+
+.log-in:hover{background-color: #a73727;
+color:#FFF;}

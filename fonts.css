@@ -1,0 +1,17 @@
+@font-face {font-family: "GT-Walsheim-Light";
+src:  url("https://www.grillitype.com/fonts/gt-walsheim/GT-Walsheim-Pro-Ultra-Bold.woff2") format("woff2");
+font-style: normal;
+font-weight: normal;
+font-display: swap;}
+
+@font-face { font-family: "Pacifico";
+src: url("https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6Mk.woff2") format("woff2");
+font-style: normal;
+font-weight: 400;
+font-display: swap;}
+
+@font-face {font-family: "Poppins";
+src: local("Poppins Regular"), local("Poppins-Regular"), url("https://fonts.gstatic.com/s/poppins/v5/pxiEyp8kv8JHgFVrJJfecg.woff2") format("woff2");
+font-style: normal;
+font-weight: 400;
+}

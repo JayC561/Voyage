@@ -1,0 +1,12 @@
+@media screen and (max-width:800px){
+  body .packages{grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(2,1fr);}
+
+  body .small,body .large,body .big{grid-row:span 1;}
+
+  body .promo{grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(2,1fr);}
+
+  body .promo div{grid-row: span 1;
+  grid-column: span 1;}
+}

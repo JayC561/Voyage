@@ -1,0 +1,21 @@
+.small-main{height:42%;
+width:100%;
+background-color: #034251;
+font-family: "Poppins";
+position: relative;}
+
+.heading{height:100%;
+width:80%;
+color:#FFF;
+position: relative;
+top:5%;
+left:50%;
+transform: translate(-50%,-5%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.small-font{font-size:calc(15px + (30 - 15)*(100vw - 300px) / (800 - 300));}
+
+.large-font{font-size: calc(20px + (40 - 20)*(100vw - 300px) / (800 - 300));}

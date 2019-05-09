@@ -1,0 +1,12 @@
+#front{background-size: cover;
+background-image:url("https://res.cloudinary.com/jatinchutani/image/upload/v1546334066/pexels-photo-219998.jpg");  }
+
+.packages div:nth-child(1){background-image:url('https://res.cloudinary.com/jatinchutani/image/upload/v1547037364/pexels-photo-1563355.jpg');}
+
+.packages div:nth-child(3){background-image:url('https://res.cloudinary.com/jatinchutani/image/upload/v1547037057/pexels-photo-1694621.jpg');}
+
+.packages div:nth-child(4){background-image:url('https://res.cloudinary.com/jatinchutani/image/upload/v1547036914/pexels-photo-584302.jpg');}
+
+.packages div:nth-child(5){background-image:url('https://res.cloudinary.com/jatinchutani/image/upload/v1547037232/pexels-photo-1144265.jpg');}
+
+.packages div:nth-child(6){background-image:url('https://res.cloudinary.com/jatinchutani/image/upload/v1547037593/pexels-photo-1260801.jpg');}
